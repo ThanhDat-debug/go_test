@@ -1,0 +1,5 @@
+go.mod là để khai báo và quản lý các danh sách dependency có trong Project
+go.sum là file kiểm tra và bảo mật các dependency có trong Project
+muốn xóa các dependency không dùng trong Project thì dùng lệnh go mod tidy
+muốn update all các dependency thì dùng lệnh go get -u
+muốn thêm một dependency dùng lệnh go get
